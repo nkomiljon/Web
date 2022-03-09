@@ -1,0 +1,152 @@
+@import "../../../../assets/styles/component/rows";
+
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-55 {
+  margin-bottom: 55px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-80 {
+  margin-right: 80px;
+}
+
+.mr-102 {
+  margin-right: 102px;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1340px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+
+.footer {
+  height: auto;
+  padding: 63px 0 40px 0;
+  background-color: #000;
+
+  &__info {
+    padding-right: 10px;
+  }
+}
+
+.info-txt {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, .4)
+}
+
+
+.btn {
+  width: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-yellow {
+  display: flex;
+  padding: 13px 30px;
+  background: #FEC80B;
+  border-radius: 4px;
+
+  & span {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 110%;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+.info-txt-small {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, .4);
+}
+
+.item {
+
+  &__txt {
+    margin-bottom: 16px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, .4);
+  }
+}
+
+.menu {
+  &__item {
+    margin-bottom: 13px;
+  }
+
+  &__link {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 110%;
+    color: rgba(255, 255, 255, .4);
+  }
+}
+
+
+.icon {
+  display: flex;
+  padding: 7px;
+  border: 1px solid rgba(255, 255, 255, .4);
+  border-radius: 4px;
+
+  & svg > path {
+    fill: rgba(255, 255, 255, .4);
+  }
+  & svg > g > path {
+    fill: rgba(255, 255, 255, .4);
+  }
+}

@@ -1,0 +1,9 @@
+@import "../../../assets/styles/abstract/mixins";
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  @include d-flex;
+}

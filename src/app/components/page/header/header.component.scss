@@ -1,0 +1,136 @@
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.mr-60 {
+  margin-right: 60px;
+}
+
+.container {
+  max-width: 1340px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #FEC80B;
+
+  &__inner {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+
+.logo {
+  margin-right: 10px;
+}
+
+.logo-text {
+  max-width: 175px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    width: 2px;
+    height: 23px;
+    background-color: #FEC80B;
+  }
+    & p {
+      margin-left: 8px;
+      font-family: Fira Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 110%;
+      color: #000000;
+    }
+}
+
+
+.work-time {
+  text-align: right;
+
+  &::after {
+    content: url("../../../../assets/images/logos/bottom-logo.svg");
+    position: relative;
+  }
+
+  & span {
+    margin-right: 4px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+  }
+}
+
+.address {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 110%;
+  text-align: right;
+  color: #A2A2A2;
+}
+
+
+.phone {
+  text-align: right;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 110%;
+  color: #A2A2A2;
+  & a {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    color: #A2A2A2;
+  }
+}
+
+
+.btn {
+  width: auto;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-yellow {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #FEC80B;
+}
+
+.btn-icon {
+  content: url("../../../../assets/images/logos/phone-logo.svg");
+  position: relative;
+}

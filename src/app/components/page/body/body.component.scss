@@ -1,0 +1,26 @@
+
+.body {
+  padding: 25px 0 125px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1340px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}

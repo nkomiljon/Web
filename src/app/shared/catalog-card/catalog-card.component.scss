@@ -1,0 +1,159 @@
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.card {
+  width: auto;
+  height: 210px;
+  display: block;
+  margin-bottom: 24px;
+
+  &__img {
+    position: relative;
+  }
+
+  &__description {
+    padding: 22px 40px 27px 30px;
+    background-color: #fff;
+  }
+
+  &__inner {
+    width: 416px;
+    margin-right: 60px;
+  }
+
+  &-title {
+
+    &__text {
+      font-family: Fira Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 120%;
+      color: #000000;
+    }
+  }
+}
+
+.badge {
+  width: 100%;
+  position: absolute;
+
+  &__text {
+    height: 19px;
+    padding: 3px 7px 2px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: #86D548;
+    border-radius: 0px 8px 0px 0px;
+    position: relative;
+
+    & span {
+      font-family: Fira Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 110%;
+      color: #FFFFFF;
+    }
+  }
+
+  &__icon {
+    padding: 4px;
+    background-color: transparent;
+    position: relative;
+  }
+}
+
+.info {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 110%;
+  color: #A2A2A2;
+}
+
+.border {
+  border-bottom: 1px dashed #A2A2A2;
+}
+
+
+.price {
+  margin-top: 22px;
+  margin-bottom: 16px;
+  & span {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+
+.btn {
+  width: auto;
+  border: none;
+  cursor: pointer;
+}
+
+
+.btn-yellow {
+  padding: 13px 52px;
+  background-color: #FEC80B;
+  border-radius: 4px;
+  display: flex;
+
+  & span {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 110%;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+
+.down {
+  margin-bottom: 13px;
+  & span {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 110%;
+    color: #A2A2A2;
+  }
+
+  & img {
+    margin-left: 5px;
+  }
+}

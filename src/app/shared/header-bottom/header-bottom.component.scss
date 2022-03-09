@@ -1,0 +1,136 @@
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+.mr-32 {
+  margin-right: 32px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.mr-68 {
+  margin-right: 68px;
+}
+
+
+
+
+.container  {
+  max-width: 1340px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fd-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+
+.header-bottom {
+  padding: 15px 0;
+  background-color: #fff;
+}
+
+.btn {
+  border: none;
+  width: auto;
+  cursor: pointer;
+}
+
+.btn-yellow {
+  height: 42px;
+  padding: 9px 16px;
+  background-color: #FEC80B;
+  border-radius: 4px;
+}
+
+.btn-lines {
+  width: auto;
+  padding: 5px 3px;
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.line:nth-child(1) {
+  width: 18px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 4px;
+}
+
+.line:nth-child(2) {
+  width: 18px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 4px;
+}
+.line:nth-child(3) {
+  width: 18px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 4px;
+}
+
+.btn-txt {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+  color: #000000;
+}
+
+
+.menu {
+
+  &__link {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+  }
+}
+
+
+.search {
+  width: auto;
+  position: relative;
+
+  &__icon {
+    content: url("../../../assets/images/logos/search-logo.svg");
+    position: absolute;
+    left: 88%;
+    top: 5px;
+  }
+}
+
+.input {
+  width: 312px;
+  height: 36px;
+  padding: 8px 40px 8px 16px;
+  outline: none;
+  border: 1px solid #FEC80B;
+  border-radius: 40px;
+}

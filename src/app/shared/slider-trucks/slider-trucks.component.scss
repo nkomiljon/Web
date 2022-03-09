@@ -1,0 +1,97 @@
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+}
+
+.card {
+  width: 200px;
+  background-color: #fff;
+  &__img {
+    position: relative;
+    & img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+  }
+
+  &__text {
+    height: 52px;
+    padding: 11px 7px 0 7px;
+    margin-bottom: 9px;
+    & p {
+      font-family: Fira Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 110%;
+      color: #000000;
+    }
+  }
+
+  &__btn {
+    padding: 0 8px 12px 8px;
+  }
+}
+
+.badge {
+  padding: 3px 7px 2px;
+  position: absolute;
+  top: 120px;
+  background: #86D548;
+  border-radius: 0px 8px 0px 0px;
+
+  & span {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+}
+
+.btn {
+  width: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-yellow {
+  background-color: #FEC80B;
+  padding: 13px 26px;
+  border-radius: 4px;
+}
+
+.btn-txt {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 110%;
+  color: #000000;
+}
+
+
+.btn-heart {
+  width: 32px;
+  height: 32px;
+  padding: 5px 4px;
+  display: flex;
+  align-items: center;
+}
